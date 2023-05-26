@@ -28,6 +28,7 @@
   transform: translateY(-50%);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
   transition: scale 0.4s ease-in-out;
+  cursor: pointer;
 }
 
 .books__list-scroll:hover {
