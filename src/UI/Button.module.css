@@ -1,0 +1,18 @@
+.button {
+  padding: 10px 25px;
+  border: 1px solid var(--color-golden);
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.button:hover,
+.button:active {
+  background: var(--color-golden);
+  border-color: var(--color-golden);
+}
+
+.button > a {
+  text-decoration: none;
+  color: #000;
+}
