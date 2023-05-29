@@ -1,5 +1,9 @@
 {
   "projects": {
+<<<<<<< HEAD
     "default": "books-app-one"
+=======
+    "default": "noted-bliss-386818"
+>>>>>>> af80e9f0fc8b6207f3d11d6ab18f501199660953
   }
 }
