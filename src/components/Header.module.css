@@ -129,7 +129,7 @@
 
   .toggle__menu {
     position: absolute;
-    opacity: 0;
+    visibility: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,11 +141,11 @@
     height: 170px;
     background-color: var(--color-white);
     border: 1px solid var(--color-golden);
-    transition: opacity 0.4s ease-in-out;
+    transition: visibility 0.4s ease-in-out;
   }
 
   .toggle__menu.show {
-    opacity: 1;
+    visibility: visible;
   }
 
   .toggle__menu > a {

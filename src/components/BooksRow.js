@@ -43,7 +43,7 @@ const BooksRow = ({ books }) => {
       >
         <RiArrowRightSLine size={60} />
       </button>
-      {listOfBooks}
+      <div>{listOfBooks}</div>
     </div>
   );
 };

@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <h3>
-        NK Internship
+        NK
         <span> &copy; </span>
         {year}
       </h3>

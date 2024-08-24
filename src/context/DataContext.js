@@ -16,7 +16,7 @@ export const DataProvider = ({ children }) => {
         setIsLoading(true);
         try {
           const response = await fetch(
-            `https://www.googleapis.com/books/v1/volumes?q=${search}&key=AIzaSyBexni8XnlLQ1HHavU2QD7Nh1BeDj2VqI4&maxResults=40`
+            `https://www.googleapis.com/books/v1/volumes?q=${search}&key=AIzaSyDdHZy1DPygxSvLGu4-iqcXrDBT6926suQ&maxResults=40`
           );
           const data = await response.json();
           setBooks(data.items);
@@ -45,3 +45,5 @@ export const DataProvider = ({ children }) => {
 };
 
 export default DataContext;
+
+// `https://www.googleapis.com/books/v1/volumes?q=${search}&key=AIzaSyBexni8XnlLQ1HHavU2QD7Nh1BeDj2VqI4&maxResults=40`;
